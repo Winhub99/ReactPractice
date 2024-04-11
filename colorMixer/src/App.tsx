@@ -9,6 +9,8 @@ function App() {
     console.log(val)
     setSelectedValue(val)
   }
+
+  const bgColor= (selectedValue==="red"?"red":selectedValue==="green"?"green":"blue");
   return (
     <>
     <h2>Create radio buttons here</h2>
@@ -27,7 +29,7 @@ function App() {
       </span>
 
     </div>
-    <div id='colorBox' style={{width:'350px',height:'175px',backgroundColor:'black', marginTop:'20px'}}>
+    <div id='colorBox' style={{width:'350px',height:'175px',backgroundColor:bgColor, marginTop:'20px'}}>
 
 </div>
     </>
