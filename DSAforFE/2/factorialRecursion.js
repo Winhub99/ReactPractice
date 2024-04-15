@@ -16,3 +16,4 @@ function factorial(num){
 }
 
 console.log(factorial(target))
+
