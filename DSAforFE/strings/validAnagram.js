@@ -20,3 +20,4 @@ return true
 }
 
 console.log(isAnagram(str,target))
+
